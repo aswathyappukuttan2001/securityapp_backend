@@ -4,8 +4,6 @@ const visitorSchema=new mongoose.Schema(
     {
         name:String,
         purpose:String,
-        phoneno:String,
-        address:String,
         
     }
 )

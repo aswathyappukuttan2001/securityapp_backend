@@ -1,6 +1,6 @@
 const express=require("express")
 const router=express.Router()
-const visitorModels = require("../models/visiterModels")
+const visitorModels = require("../models/visitorModels")
 
 
     
