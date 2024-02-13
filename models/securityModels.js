@@ -3,10 +3,9 @@ const mongoose=require("mongoose")
 const securitySchema=new mongoose.Schema(
     {
         name:String,
-        age:String,
-        phoneno:String,
+        employeeid:String,
         address:String,
-        pincode:String,
+        phoneno:String,
         email:String,
         password:String
     }
