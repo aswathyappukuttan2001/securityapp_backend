@@ -13,7 +13,7 @@ app.use("/security",securityRouter)
 app.use("/visitor",visitorRouter)
 
 
-mongoose.connect("mongodb+srv://AswathyAppukuttan:aswathy2001@cluster0.9azl2ct.mongodb.net/visitDb?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://AswathyAppukuttan:aswathy2001@cluster0.9azl2ct.mongodb.net/adminDb?retryWrites=true&w=majority",
 {
   useNewUrlParser:true
 }

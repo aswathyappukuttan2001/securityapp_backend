@@ -6,7 +6,7 @@ const securitySchema=new mongoose.Schema(
         employeeid:String,
         address:String,
         phoneno:String,
-        email:String,
+        emailid:String,
         password:String
     }
 )
